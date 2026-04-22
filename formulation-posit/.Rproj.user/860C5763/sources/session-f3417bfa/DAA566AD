@@ -1,0 +1,24 @@
+{
+    "id": "DAA566AD",
+    "path": "/cloud/project/manifest.json",
+    "project_path": "manifest.json",
+    "type": "json",
+    "hash": "2004982257",
+    "contents": "",
+    "dirty": false,
+    "created": 1776846550603.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1776846562,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1776846562631,
+    "read_only": false,
+    "read_only_alternatives": []
+}

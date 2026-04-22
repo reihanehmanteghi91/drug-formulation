@@ -1,0 +1,3366 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "level_number": "l0",
+      "block_name": "LEVEL 0",
+      "level_desc": "api_modality_selection",
+      "children_count": 2,
+      "level_class": "level_0"
+    },
+    {
+      "id": 2,
+      "level_number": "l1",
+      "block_name": "LEVEL 1",
+      "level_desc": "route_and_dosage_family_selection",
+      "children_count": 6,
+      "level_class": "level_1"
+    },
+    {
+      "id": 3,
+      "level_number": "l2",
+      "block_name": "LEVEL 2",
+      "level_desc": "manufacturing_strategy_selection",
+      "children_count": 4,
+      "level_class": "level_2"
+    },
+    {
+      "id": 4,
+      "level_number": "l3",
+      "block_name": "LEVEL 3",
+      "level_desc": "product_profile_selection",
+      "children_count": 8,
+      "level_class": "level_3"
+    },
+    {
+      "id": 5,
+      "level_number": "dosage",
+      "block_name": "SUGGESTED DOSAGE FORM",
+      "level_desc": "final_dosage_form_output",
+      "children_count": 7,
+      "level_class": "level_4"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": 1,
+      "level_number": "l0",
+      "block_name": "Small Molecules",
+      "class": "sm",
+      "color": "#f7f7f7",
+      "position": 1
+    },
+    {
+      "block_id": 2,
+      "level_number": "l0",
+      "block_name": "Biologics",
+      "class": "bi",
+      "color": "#f7f7f7",
+      "position": 2
+    },
+    {
+      "block_id": 3,
+      "level_number": "l1",
+      "block_name": "Oral Solid",
+      "class": "os",
+      "color": "#f7f7f7",
+      "position": 1
+    },
+    {
+      "block_id": 4,
+      "level_number": "l1",
+      "block_name": "Oral Liquid",
+      "class": "ol",
+      "color": "#f7f7f7",
+      "position": 2
+    },
+    {
+      "block_id": 5,
+      "level_number": "l1",
+      "block_name": "Topical",
+      "class": "top",
+      "color": "#f7f7f7",
+      "position": 3
+    },
+    {
+      "block_id": 6,
+      "level_number": "l1",
+      "block_name": "Inhalation",
+      "class": "inh",
+      "color": "#f7f7f7",
+      "position": 4
+    },
+    {
+      "block_id": 7,
+      "level_number": "l1",
+      "block_name": "Injectable",
+      "class": "inj",
+      "color": "#d9d9d9",
+      "position": 5
+    },
+    {
+      "block_id": 8,
+      "level_number": "l1",
+      "block_name": "Transdermal",
+      "class": "tr",
+      "color": "#d9d9d9",
+      "position": 6
+    },
+    {
+      "block_id": 9,
+      "level_number": "l2",
+      "block_name": "Conventional Solid Processing",
+      "class": "csp",
+      "color": "#d9d9d9",
+      "position": 1
+    },
+    {
+      "block_id": 10,
+      "level_number": "l2",
+      "block_name": "Wet / Liquid Processing",
+      "class": "wlp",
+      "color": "#bdbdbd",
+      "position": 2
+    },
+    {
+      "block_id": 11,
+      "level_number": "l2",
+      "block_name": "Sterile Processing",
+      "class": "stp",
+      "color": "#969696",
+      "position": 3
+    },
+    {
+      "block_id": 12,
+      "level_number": "l2",
+      "block_name": "Specialized Delivery Fabrication",
+      "class": "sdf",
+      "color": "#969696",
+      "position": 4
+    },
+    {
+      "block_id": 13,
+      "level_number": "l3",
+      "block_name": "Conventional Oral Solid Profile",
+      "class": "cosp",
+      "color": "#f7f7f7",
+      "position": 1
+    },
+    {
+      "block_id": 14,
+      "level_number": "l3",
+      "block_name": "Modified-Release Oral Profile",
+      "class": "mrop",
+      "color": "#f7f7f7",
+      "position": 2
+    },
+    {
+      "block_id": 15,
+      "level_number": "l3",
+      "block_name": "Flexible-Dose Liquid Profile",
+      "class": "fdlp",
+      "color": "#f7f7f7",
+      "position": 3
+    },
+    {
+      "block_id": 16,
+      "level_number": "l3",
+      "block_name": "Sterile Injectable Profile",
+      "class": "sip",
+      "color": "#f7f7f7",
+      "position": 4
+    },
+    {
+      "block_id": 17,
+      "level_number": "l3",
+      "block_name": "Transdermal Patch Profile",
+      "class": "tpp",
+      "color": "#d9d9d9",
+      "position": 5
+    },
+    {
+      "block_id": 18,
+      "level_number": "l3",
+      "block_name": "Topical Local-Delivery Profile",
+      "class": "tldp",
+      "color": "#d9d9d9",
+      "position": 6
+    },
+    {
+      "block_id": 19,
+      "level_number": "l3",
+      "block_name": "Inhaled Delivery Profile",
+      "class": "idp",
+      "color": "#d9d9d9",
+      "position": 7
+    },
+    {
+      "block_id": 20,
+      "level_number": "l3",
+      "block_name": "Protected / Specialized Profile",
+      "class": "psp",
+      "color": "#bdbdbd",
+      "position": 8
+    },
+    {
+      "block_id": 21,
+      "level_number": "dosage",
+      "block_name": "Immediate-Release Tablet",
+      "class": "irtab",
+      "color": "#f7f7f7",
+      "position": 1
+    },
+    {
+      "block_id": 22,
+      "level_number": "dosage",
+      "block_name": "Capsule / Modified-Release Oral Solid",
+      "class": "mros",
+      "color": "#f7f7f7",
+      "position": 2
+    },
+    {
+      "block_id": 23,
+      "level_number": "dosage",
+      "block_name": "Oral Solution / Suspension",
+      "class": "orliq",
+      "color": "#f7f7f7",
+      "position": 3
+    },
+    {
+      "block_id": 24,
+      "level_number": "dosage",
+      "block_name": "Sterile Injectable Product",
+      "class": "sinj",
+      "color": "#f7f7f7",
+      "position": 4
+    },
+    {
+      "block_id": 25,
+      "level_number": "dosage",
+      "block_name": "Transdermal Patch",
+      "class": "tpatch",
+      "color": "#f7f7f7",
+      "position": 5
+    },
+    {
+      "block_id": 26,
+      "level_number": "dosage",
+      "block_name": "Topical Semisolid",
+      "class": "topsem",
+      "color": "#f7f7f7",
+      "position": 6
+    },
+    {
+      "block_id": 27,
+      "level_number": "dosage",
+      "block_name": "Inhaled Product",
+      "class": "inhprod",
+      "color": "#f7f7f7",
+      "position": 7
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "1",
+      "parent": 1,
+      "child": 3
+    },
+    {
+      "edge_id": "2",
+      "parent": 1,
+      "child": 4
+    },
+    {
+      "edge_id": "3",
+      "parent": 1,
+      "child": 5
+    },
+    {
+      "edge_id": "4",
+      "parent": 1,
+      "child": 6
+    },
+    {
+      "edge_id": "5",
+      "parent": 1,
+      "child": 7
+    },
+    {
+      "edge_id": "6",
+      "parent": 1,
+      "child": 8
+    },
+    {
+      "edge_id": "7",
+      "parent": 2,
+      "child": 4
+    },
+    {
+      "edge_id": "8",
+      "parent": 2,
+      "child": 7
+    },
+    {
+      "edge_id": "9",
+      "parent": 3,
+      "child": 9
+    },
+    {
+      "edge_id": "10",
+      "parent": 3,
+      "child": 10
+    },
+    {
+      "edge_id": "11",
+      "parent": 4,
+      "child": 10
+    },
+    {
+      "edge_id": "12",
+      "parent": 5,
+      "child": 12
+    },
+    {
+      "edge_id": "13",
+      "parent": 6,
+      "child": 12
+    },
+    {
+      "edge_id": "14",
+      "parent": 7,
+      "child": 11
+    },
+    {
+      "edge_id": "15",
+      "parent": 8,
+      "child": 12
+    },
+    {
+      "edge_id": "16",
+      "parent": 9,
+      "child": 13
+    },
+    {
+      "edge_id": "17",
+      "parent": 9,
+      "child": 14
+    },
+    {
+      "edge_id": "18",
+      "parent": 9,
+      "child": 20
+    },
+    {
+      "edge_id": "19",
+      "parent": 10,
+      "child": 13
+    },
+    {
+      "edge_id": "20",
+      "parent": 10,
+      "child": 15
+    },
+    {
+      "edge_id": "21",
+      "parent": 10,
+      "child": 20
+    },
+    {
+      "edge_id": "22",
+      "parent": 11,
+      "child": 16
+    },
+    {
+      "edge_id": "23",
+      "parent": 11,
+      "child": 20
+    },
+    {
+      "edge_id": "24",
+      "parent": 12,
+      "child": 17
+    },
+    {
+      "edge_id": "25",
+      "parent": 12,
+      "child": 18
+    },
+    {
+      "edge_id": "26",
+      "parent": 12,
+      "child": 19
+    },
+    {
+      "edge_id": "27",
+      "parent": 12,
+      "child": 20
+    },
+    {
+      "edge_id": "28",
+      "parent": 13,
+      "child": 21
+    },
+    {
+      "edge_id": "29",
+      "parent": 13,
+      "child": 22
+    },
+    {
+      "edge_id": "30",
+      "parent": 14,
+      "child": 22
+    },
+    {
+      "edge_id": "31",
+      "parent": 15,
+      "child": 23
+    },
+    {
+      "edge_id": "32",
+      "parent": 16,
+      "child": 24
+    },
+    {
+      "edge_id": "33",
+      "parent": 17,
+      "child": 25
+    },
+    {
+      "edge_id": "34",
+      "parent": 18,
+      "child": 26
+    },
+    {
+      "edge_id": "35",
+      "parent": 19,
+      "child": 27
+    },
+    {
+      "edge_id": "36",
+      "parent": 20,
+      "child": 22
+    },
+    {
+      "edge_id": "37",
+      "parent": 20,
+      "child": 23
+    },
+    {
+      "edge_id": "38",
+      "parent": 20,
+      "child": 24
+    }
+  ],
+  "questions": [
+    {
+      "qs_id": "0",
+      "level_number": "l0",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "What is the molecular modality of the API?"
+    },
+    {
+      "qs_id": "1",
+      "level_number": "l0",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is the API compatible with conventional oral absorption?"
+    },
+    {
+      "qs_id": "2",
+      "level_number": "l0",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is parenteral delivery inherently required for stability or bioavailability reasons?"
+    },
+    {
+      "qs_id": "3",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Which route or dosage-form family is preferred?"
+    },
+    {
+      "qs_id": "4",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "What is the target patient population?"
+    },
+    {
+      "qs_id": "5",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "What is the dose burden per administration?"
+    },
+    {
+      "qs_id": "6",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is flexible dosing and/or easy swallowing required?"
+    },
+    {
+      "qs_id": "7",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is a swallowable solid dosage form acceptable for the intended population?"
+    },
+    {
+      "qs_id": "8",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Are API flow and compressibility adequate for an oral solid route?"
+    },
+    {
+      "qs_id": "9",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is the API sufficiently stable in an aqueous liquid formulation?"
+    },
+    {
+      "qs_id": "10",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "How challenging is taste masking for an oral liquid?"
+    },
+    {
+      "qs_id": "11",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is local action on the skin or mucosal surface desired?"
+    },
+    {
+      "qs_id": "12",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Can the API be engineered for inhaled delivery?"
+    },
+    {
+      "qs_id": "13",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is sterile injectable administration clinically appropriate?"
+    },
+    {
+      "qs_id": "14",
+      "level_number": "l1",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is skin permeability or patch-based delivery feasible?"
+    },
+    {
+      "qs_id": "33",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is direct compression or simple blending feasible for this product?"
+    },
+    {
+      "qs_id": "34",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is content uniformity manageable at the current drug-load category?"
+    },
+    {
+      "qs_id": "35",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Are flow and compressibility adequate for conventional solid processing?"
+    },
+    {
+      "qs_id": "36",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is wet processing or liquid manufacture acceptable for this product?"
+    },
+    {
+      "qs_id": "37",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is the API stable during wet processing or liquid manufacture?"
+    },
+    {
+      "qs_id": "38",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is dose flexibility or liquid manufacture a key requirement?"
+    },
+    {
+      "qs_id": "39",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is aseptic or sterile processing feasible for this product?"
+    },
+    {
+      "qs_id": "40",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Does the API benefit from gentle sterile processing due to heat or shear sensitivity?"
+    },
+    {
+      "qs_id": "41",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is the required cold-chain or preservative strategy acceptable?"
+    },
+    {
+      "qs_id": "42",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is specialized fabrication required for patch, topical, or inhaled delivery?"
+    },
+    {
+      "qs_id": "43",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Are device, adhesion, or local-delivery performance requirements critical?"
+    },
+    {
+      "qs_id": "44",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is the API stable under specialized fabrication stresses such as heat, shear, or solvent exposure?"
+    },
+    {
+      "qs_id": "45",
+      "level_number": "l2",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is a more complex manufacturing route acceptable within project constraints?"
+    },
+    {
+      "qs_id": "81",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is a conventional immediate-release oral solid profile appropriate?"
+    },
+    {
+      "qs_id": "82",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is modified or prolonged release required?"
+    },
+    {
+      "qs_id": "83",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is a flexible-dose liquid profile preferred?"
+    },
+    {
+      "qs_id": "84",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is sterile systemic delivery required?"
+    },
+    {
+      "qs_id": "85",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is sustained transdermal skin delivery desired?"
+    },
+    {
+      "qs_id": "86",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is local topical delivery the main therapeutic goal?"
+    },
+    {
+      "qs_id": "87",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is pulmonary delivery the intended route?"
+    },
+    {
+      "qs_id": "88",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Does the API require special protection from moisture, oxygen, light, or cold-chain stress?"
+    },
+    {
+      "qs_id": "89",
+      "level_number": "l3",
+      "qs_type": "option",
+      "qs_feature": "",
+      "question": "Is additional product complexity acceptable to achieve protection or specialized handling?"
+    }
+  ],
+  "question_block_links": [
+    {
+      "qb_link_id": "1",
+      "qs_id": "0",
+      "block_id": "1"
+    },
+    {
+      "qb_link_id": "2",
+      "qs_id": "0",
+      "block_id": "2"
+    },
+    {
+      "qb_link_id": "3",
+      "qs_id": "1",
+      "block_id": "1"
+    },
+    {
+      "qb_link_id": "4",
+      "qs_id": "1",
+      "block_id": "2"
+    },
+    {
+      "qb_link_id": "5",
+      "qs_id": "2",
+      "block_id": "1"
+    },
+    {
+      "qb_link_id": "6",
+      "qs_id": "2",
+      "block_id": "2"
+    },
+    {
+      "qb_link_id": "7",
+      "qs_id": "3",
+      "block_id": "3"
+    },
+    {
+      "qb_link_id": "8",
+      "qs_id": "3",
+      "block_id": "4"
+    },
+    {
+      "qb_link_id": "9",
+      "qs_id": "3",
+      "block_id": "5"
+    },
+    {
+      "qb_link_id": "10",
+      "qs_id": "3",
+      "block_id": "6"
+    },
+    {
+      "qb_link_id": "11",
+      "qs_id": "3",
+      "block_id": "7"
+    },
+    {
+      "qb_link_id": "12",
+      "qs_id": "3",
+      "block_id": "8"
+    },
+    {
+      "qb_link_id": "13",
+      "qs_id": "4",
+      "block_id": "3"
+    },
+    {
+      "qb_link_id": "14",
+      "qs_id": "4",
+      "block_id": "4"
+    },
+    {
+      "qb_link_id": "15",
+      "qs_id": "4",
+      "block_id": "5"
+    },
+    {
+      "qb_link_id": "16",
+      "qs_id": "4",
+      "block_id": "6"
+    },
+    {
+      "qb_link_id": "17",
+      "qs_id": "4",
+      "block_id": "7"
+    },
+    {
+      "qb_link_id": "18",
+      "qs_id": "4",
+      "block_id": "8"
+    },
+    {
+      "qb_link_id": "19",
+      "qs_id": "5",
+      "block_id": "3"
+    },
+    {
+      "qb_link_id": "20",
+      "qs_id": "5",
+      "block_id": "4"
+    },
+    {
+      "qb_link_id": "21",
+      "qs_id": "5",
+      "block_id": "5"
+    },
+    {
+      "qb_link_id": "22",
+      "qs_id": "5",
+      "block_id": "6"
+    },
+    {
+      "qb_link_id": "23",
+      "qs_id": "5",
+      "block_id": "7"
+    },
+    {
+      "qb_link_id": "24",
+      "qs_id": "5",
+      "block_id": "8"
+    },
+    {
+      "qb_link_id": "25",
+      "qs_id": "6",
+      "block_id": "3"
+    },
+    {
+      "qb_link_id": "26",
+      "qs_id": "6",
+      "block_id": "4"
+    },
+    {
+      "qb_link_id": "27",
+      "qs_id": "6",
+      "block_id": "5"
+    },
+    {
+      "qb_link_id": "28",
+      "qs_id": "6",
+      "block_id": "6"
+    },
+    {
+      "qb_link_id": "29",
+      "qs_id": "6",
+      "block_id": "7"
+    },
+    {
+      "qb_link_id": "30",
+      "qs_id": "6",
+      "block_id": "8"
+    },
+    {
+      "qb_link_id": "31",
+      "qs_id": "7",
+      "block_id": "3"
+    },
+    {
+      "qb_link_id": "32",
+      "qs_id": "8",
+      "block_id": "3"
+    },
+    {
+      "qb_link_id": "33",
+      "qs_id": "9",
+      "block_id": "4"
+    },
+    {
+      "qb_link_id": "34",
+      "qs_id": "10",
+      "block_id": "4"
+    },
+    {
+      "qb_link_id": "35",
+      "qs_id": "11",
+      "block_id": "5"
+    },
+    {
+      "qb_link_id": "36",
+      "qs_id": "12",
+      "block_id": "6"
+    },
+    {
+      "qb_link_id": "37",
+      "qs_id": "13",
+      "block_id": "7"
+    },
+    {
+      "qb_link_id": "38",
+      "qs_id": "14",
+      "block_id": "8"
+    },
+    {
+      "qb_link_id": "39",
+      "qs_id": "33",
+      "block_id": "9"
+    },
+    {
+      "qb_link_id": "40",
+      "qs_id": "34",
+      "block_id": "9"
+    },
+    {
+      "qb_link_id": "41",
+      "qs_id": "35",
+      "block_id": "9"
+    },
+    {
+      "qb_link_id": "42",
+      "qs_id": "36",
+      "block_id": "10"
+    },
+    {
+      "qb_link_id": "43",
+      "qs_id": "37",
+      "block_id": "10"
+    },
+    {
+      "qb_link_id": "44",
+      "qs_id": "38",
+      "block_id": "10"
+    },
+    {
+      "qb_link_id": "45",
+      "qs_id": "39",
+      "block_id": "11"
+    },
+    {
+      "qb_link_id": "46",
+      "qs_id": "40",
+      "block_id": "11"
+    },
+    {
+      "qb_link_id": "47",
+      "qs_id": "41",
+      "block_id": "11"
+    },
+    {
+      "qb_link_id": "48",
+      "qs_id": "42",
+      "block_id": "12"
+    },
+    {
+      "qb_link_id": "49",
+      "qs_id": "43",
+      "block_id": "12"
+    },
+    {
+      "qb_link_id": "50",
+      "qs_id": "44",
+      "block_id": "12"
+    },
+    {
+      "qb_link_id": "51",
+      "qs_id": "45",
+      "block_id": "12"
+    },
+    {
+      "qb_link_id": "52",
+      "qs_id": "81",
+      "block_id": "13"
+    },
+    {
+      "qb_link_id": "53",
+      "qs_id": "82",
+      "block_id": "14"
+    },
+    {
+      "qb_link_id": "54",
+      "qs_id": "83",
+      "block_id": "15"
+    },
+    {
+      "qb_link_id": "55",
+      "qs_id": "84",
+      "block_id": "16"
+    },
+    {
+      "qb_link_id": "56",
+      "qs_id": "85",
+      "block_id": "17"
+    },
+    {
+      "qb_link_id": "57",
+      "qs_id": "86",
+      "block_id": "18"
+    },
+    {
+      "qb_link_id": "58",
+      "qs_id": "87",
+      "block_id": "19"
+    },
+    {
+      "qb_link_id": "59",
+      "qs_id": "88",
+      "block_id": "20"
+    },
+    {
+      "qb_link_id": "60",
+      "qs_id": "89",
+      "block_id": "20"
+    }
+  ],
+  "answers_concept_definition": [
+    {
+      "ac_id": "0",
+      "qs_id": "0",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Small molecule",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Biologic",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Peptide / large molecule",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Small molecule",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Biologic",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Peptide / large molecule",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "1",
+      "qs_id": "1",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "2",
+      "qs_id": "2",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "3",
+      "qs_id": "3",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Oral solid",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Oral liquid",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Topical",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o4",
+              "value": "Inhalation",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o5",
+              "value": "Injectable",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o6",
+              "value": "Transdermal",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 4,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Oral solid",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Oral liquid",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Topical",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o4",
+              "value": "Inhalation",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o5",
+              "value": "Injectable",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o6",
+              "value": "Transdermal",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 5,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Oral solid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Oral liquid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Topical",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o4",
+              "value": "Inhalation",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o5",
+              "value": "Injectable",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o6",
+              "value": "Transdermal",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 6,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Oral solid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Oral liquid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Topical",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o4",
+              "value": "Inhalation",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o5",
+              "value": "Injectable",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o6",
+              "value": "Transdermal",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 7,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Oral solid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Oral liquid",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Topical",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o4",
+              "value": "Inhalation",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o5",
+              "value": "Injectable",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o6",
+              "value": "Transdermal",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 8,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Oral solid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Oral liquid",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Topical",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o4",
+              "value": "Inhalation",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o5",
+              "value": "Injectable",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o6",
+              "value": "Transdermal",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "4",
+      "qs_id": "4",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Adult",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Pediatric",
+              "validity": "maybe_valid",
+              "comment": "solid oral forms may be suitable mainly for older children with adequate swallowing ability"
+            },
+            {
+              "option_id": "o3",
+              "value": "Geriatric",
+              "validity": "maybe_valid",
+              "comment": "swallowing difficulties may limit conventional oral solids"
+            }
+          ]
+        },
+        {
+          "block_id": 4,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Adult",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Pediatric",
+              "validity": "valid",
+              "comment": "liquid formulations support flexible dosing and easier administration"
+            },
+            {
+              "option_id": "o3",
+              "value": "Geriatric",
+              "validity": "valid",
+              "comment": "liquid formulations may help when swallowing is difficult"
+            }
+          ]
+        },
+        {
+          "block_id": 5,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Adult",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Pediatric",
+              "validity": "maybe_valid",
+              "comment": "topicals can be appropriate depending on indication and exposure considerations"
+            },
+            {
+              "option_id": "o3",
+              "value": "Geriatric",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 6,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Adult",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Pediatric",
+              "validity": "maybe_valid",
+              "comment": "inhaled products may be appropriate but device handling can limit use in younger children"
+            },
+            {
+              "option_id": "o3",
+              "value": "Geriatric",
+              "validity": "invalid",
+              "comment": "device coordination may reduce suitability"
+            }
+          ]
+        },
+        {
+          "block_id": 7,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Adult",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Pediatric",
+              "validity": "maybe_valid",
+              "comment": "injectables may be clinically appropriate but are generally not preferred for routine pediatric administration"
+            },
+            {
+              "option_id": "o3",
+              "value": "Geriatric",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 8,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Adult",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Pediatric",
+              "validity": "invalid",
+              "comment": "transdermal use is generally limited in pediatrics due to dosing and skin-permeability concerns"
+            },
+            {
+              "option_id": "o3",
+              "value": "Geriatric",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "5",
+      "qs_id": "5",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "<50 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "50-250 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": ">250 mg",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 4,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "<50 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "50-250 mg",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": ">250 mg",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 5,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "<50 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "50-250 mg",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": ">250 mg",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 6,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "<50 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "50-250 mg",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": ">250 mg",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 7,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "<50 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "50-250 mg",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": ">250 mg",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 8,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "<50 mg",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "50-250 mg",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": ">250 mg",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "6",
+      "qs_id": "6",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "invalid",
+              "comment": "need for flexible dosing/easy swallowing argues against conventional oral solids"
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 4,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": "liquid formulations support easy swallowing and flexible dosing"
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Maybe",
+              "validity": "valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 5,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": "may bypass swallowing issues depending on indication"
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 6,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": "device handling may offset swallowing advantage"
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 7,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": "injectables avoid swallowing but reduce convenience"
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 8,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": "transdermal delivery may support compliance in select cases"
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "7",
+      "qs_id": "7",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "invalid",
+              "comment": "lack of swallowability excludes conventional oral solids"
+            },
+            {
+              "option_id": "o3",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": "solid oral route may be suitable only for older children or selected patients"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "8",
+      "qs_id": "8",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Good",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Moderate",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Poor",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "9",
+      "qs_id": "9",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 4,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "10",
+      "qs_id": "10",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 4,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Low",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Moderate",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "High",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "11",
+      "qs_id": "11",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 5,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Local action",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Systemic action",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Both possible",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "12",
+      "qs_id": "12",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 6,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "13",
+      "qs_id": "13",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 7,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "14",
+      "qs_id": "14",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 8,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "15",
+      "qs_id": "33",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 9,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "16",
+      "qs_id": "34",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 9,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Manageable",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Challenging",
+              "validity": "invalid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "High risk",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Manageable",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Challenging",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "High risk",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Manageable",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Challenging",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "High risk",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "17",
+      "qs_id": "35",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 9,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Good",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Moderate",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Poor",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Good",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Moderate",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Poor",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Good",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Moderate",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Poor",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "18",
+      "qs_id": "36",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 10,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "19",
+      "qs_id": "37",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 10,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "20",
+      "qs_id": "38",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 10,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": "liquid manufacture/flexible dosing supports wet or liquid processing"
+            },
+            {
+              "option_id": "o2",
+              "value": "Maybe",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": "if liquid manufacture is not needed, this route is less justified"
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": "liquid manufacture/flexible dosing supports wet or liquid processing"
+            },
+            {
+              "option_id": "o2",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": "if liquid manufacture is not needed, this route is less justified"
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "maybe_valid",
+              "comment": "liquid manufacture/flexible dosing supports wet or liquid processing"
+            },
+            {
+              "option_id": "o2",
+              "value": "Maybe",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": "if liquid manufacture is not needed, this route is less justified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "21",
+      "qs_id": "39",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 11,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "22",
+      "qs_id": "40",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 11,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "23",
+      "qs_id": "41",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 11,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "24",
+      "qs_id": "42",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 12,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "25",
+      "qs_id": "43",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 12,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "No",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "26",
+      "qs_id": "44",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 12,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "27",
+      "qs_id": "45",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 12,
+          "dl": 1,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 2,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "dl": 3,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "28",
+      "qs_id": "81",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 13,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": "conventional immediate-release oral solids are appropriate when swallowing and fixed dosing are acceptable"
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": "may still be feasible for older pediatric or selected patients"
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "29",
+      "qs_id": "82",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 14,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": "modified-release may be appropriate when prolonged exposure is required, but pediatric suitability should be assessed carefully"
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "30",
+      "qs_id": "83",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 15,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": "flexible-dose liquid profile is strongly compatible with pediatric use"
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "31",
+      "qs_id": "84",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 16,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "32",
+      "qs_id": "85",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 17,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "33",
+      "qs_id": "86",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 18,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "34",
+      "qs_id": "87",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 19,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "35",
+      "qs_id": "88",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 20,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ac_id": "36",
+      "qs_id": "89",
+      "affected_dosage_blocks": [
+        {
+          "block_id": 20,
+          "possible_answers": [
+            {
+              "option_id": "o1",
+              "value": "Yes",
+              "validity": "valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o2",
+              "value": "Uncertain",
+              "validity": "maybe_valid",
+              "comment": " "
+            },
+            {
+              "option_id": "o3",
+              "value": "No",
+              "validity": "invalid",
+              "comment": " "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
