@@ -39,7 +39,7 @@ fluidPage(id="fluid",
           #tags$script(src = "https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"),
 
           ),
-          # titlePanel(p(class= "main_title","UCB Formulation")),
+         
          # div(id = "phase_title", class = "phase_title",tags$svg(class= "")),
           # actionButton("showmodal", "New Project"),
           #actionButton("showForm", "Form"),
